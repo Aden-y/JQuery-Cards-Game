@@ -1,0 +1,82 @@
+body {
+    background-color: green;
+}
+
+#main {
+	width: 850px;
+	margin: 0 auto;
+}
+h1 {
+    color: coral;
+}
+
+#left {
+	float: left;
+	 width: 600px;
+	 height: 500px;
+}
+
+#pHand, #cHand {
+	width: 299px;
+	height: 500px;
+	color: coral;
+}
+
+.pImg, .sImg {
+    display: block;
+    width: 75%;
+    height: 75%;
+   margin:  auto;
+    margin-top: 20px;
+}
+
+#pHand .pName, #cHand h2 {
+	padding-left: 20px;
+}
+
+.pName, #pName2 {
+    display: inline;
+}
+
+#pHand {
+	float: left;
+	background-color: bisque;
+	border-right: 2px dashed black;
+}
+
+#cHand {
+	float: right;
+	background-color:  bisque;
+}
+
+#right {
+	float: right;
+	width: 225px;
+	height: 555px;
+	background-color: green;
+	
+	
+}
+
+#right h2, #right p {
+	display: inline-block;
+	color: coral;
+}
+
+#right p {
+	font-size: 32px;
+	padding-left: 5px;
+}
+
+#right.pName, #cName {
+	
+}
+
+#but {
+	clear: both;
+	height: 40px;
+	padding-top: 15px;
+	padding-left: 20px;
+	background-color: coral;
+}
+
